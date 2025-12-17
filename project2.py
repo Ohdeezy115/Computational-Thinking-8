@@ -61,6 +61,9 @@ if will_Baker_points > Larry_bird_points and will_Baker_points > lebron_points:
 if Larry_bird_points > lebron_points and Larry_bird_points > will_Baker_points:
     print(" Your favorite basketball player is LARRY BIRD!!!")
 
+if lebron_points==5 or lebron_points==6:
+    print("LEBROOOOOOOOOONNNNNNNNN YOU HAD ABOVE FIVE POINTS FOR LEBRON YOU ARE A LEBRON GLAZER!!!")
+
 
 
 print(f" your score is {lebron_points} Lebron, {Larry_bird_points} Larry Bird, and {will_Baker_points} Will Baker")
