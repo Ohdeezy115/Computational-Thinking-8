@@ -4,6 +4,7 @@ from utils import *
 # Comment- in this game your goal is to get as much ramen as possible by clicking space. when you get enough ramen you can buy a big ramen wich gives you more ramen per second
 # once you get to ten big ramen you win and your ramen score goes really high.
 
+
 # Section 1 - setup
 set_background("Mooseman")
 
@@ -57,7 +58,7 @@ window.onkeypress(get_big_ramen, "r")
 window.listen()
 for i in range(1000000000):
     t1.clear()
-    t1.write(f"ramen: {ramen}\ncost: {cost}\nbig_ramen: {big_ramen})",font=("arial",30,"normal"))
+    t1.write(f"ramen: {ramen}\ncost: {cost}\nbig_ramen: {big_ramen})",font=("arial",25,"normal"))
     
     # TODO - put any repeating actions here
     if i % 70 == 0:
